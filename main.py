@@ -13,3 +13,11 @@ if __name__ == "__main__":
     print()
 
     user.show_info()
+
+    print('Pick a new name:')
+    new_name = input()
+
+    user.change_name(new_name)
+
+    print('New user info:')
+    user.show_info()

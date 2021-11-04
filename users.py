@@ -8,3 +8,7 @@ class User:
         print('User information:')
         print('\tName:', self.name)
         print('\tID:', self.user_id)
+
+
+    def change_name(self, new_name):
+        name = new_name
